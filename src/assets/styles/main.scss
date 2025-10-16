@@ -1,0 +1,11 @@
+@use "./normalize";
+@use "./vars";
+@use "./fonts";
+
+
+body {
+  font-family: "Inter";
+
+  font-size: 16px;
+  font-weight: 400;
+}
