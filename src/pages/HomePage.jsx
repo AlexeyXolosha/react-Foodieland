@@ -1,6 +1,8 @@
+import {Hero} from "../components/index.js";
+
 function HomePage () {
     return (
-        <h1 className="title"></h1>
+        Hero()
     )
 }
 

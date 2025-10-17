@@ -1,4 +1,4 @@
-import './main.scss';
+import './style.scss';
 import logo from '../../assets/icon/logo.svg';
 
 function Header() {

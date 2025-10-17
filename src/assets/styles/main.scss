@@ -9,3 +9,9 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+
+.container {
+  max-width: var(--container-width);
+  padding-inline: 16px;
+  margin-inline: auto;
+}

@@ -200,6 +200,9 @@ svg * {
   --color-white: #FFF;
   --color-black: #000000;
   --color-accent: #E7F9FD;
+  --color-orange: #FF7426;
+  --transition-duration: 0.2s;
+  --container-width: 1280px;
 }
 
 @font-face {
@@ -241,6 +244,12 @@ body {
   font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
+}
+
+.container {
+  max-width: var(--container-width);
+  padding-inline: 16px;
+  margin-inline: auto;
 }
 
 /*# sourceMappingURL=main.css.map */

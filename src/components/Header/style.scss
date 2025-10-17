@@ -22,6 +22,11 @@
       font-weight: 500;
       letter-spacing: -2%;
       color: var(--color-black);
+      transition-duration: var(--transition-duration);
+
+      &:hover {
+        color: var(--color-orange);
+      }
     }
   }
 }
@@ -34,12 +39,22 @@
   }
 
   &__item {
-    svg {
-      color: var(--color-black);
-    }
+
   }
 
   &__link {
+    svg {
+      color: var(--color-black);
+      transition-duration: var(--transition-duration);
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        svg {
+          color: var(--color-orange);
+        }
+      }
+    }
 
   }
 }
