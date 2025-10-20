@@ -1,0 +1,36 @@
+.hero {
+  margin-top: 40px;
+  &__inner {
+    display: flex;
+  }
+
+  &__info {
+    width: 50%;
+    background-color: var(--color-accent);
+    border-radius: 50px 0 0 50px;
+    padding: 50px;
+
+    &-head {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__title {
+    font-size: 64px;
+    line-height: 110%;
+    font-weight: 600;
+    color: var(--color-black);
+    margin-bottom: 24px;
+  }
+
+  &__description {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  &__media{
+    width: 50%;
+  }
+}

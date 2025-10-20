@@ -1,9 +1,11 @@
+import './style.scss';
 import {Author} from "../index.js";
 
 function Hero() {
     return (
         <section className="hero">
             <div className="hero__inner container">
+
                 <div className="hero__info">
 
                     <div className="hero__info-head">
@@ -17,6 +19,8 @@ function Hero() {
                     </div>
 
                 </div>
+
+
                 <div className="hero__media"></div>
             </div>
         </section>
