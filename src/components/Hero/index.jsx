@@ -1,5 +1,7 @@
 import './style.scss';
-import {Author} from "../index.js";
+import {Author, ButtonLink} from "../index.js";
+import playIcon from '/src/assets/icon/play.svg';
+import heroBanner from '/src/assets/image/hero-banner.png';
 
 function Hero() {
     return (
@@ -16,12 +18,20 @@ function Hero() {
 
                     <div className="hero__info-footer">
                         <Author></Author>
+                        <ButtonLink>
+                            <span>View Recipes</span>
+                            <div className="icon">
+                                <img src={playIcon} alt=""/>
+                            </div>
+                        </ButtonLink>
                     </div>
 
                 </div>
 
 
-                <div className="hero__media"></div>
+                <div className="hero__media">
+                    <img src={heroBanner} alt=""/>
+                </div>
             </div>
         </section>
     )

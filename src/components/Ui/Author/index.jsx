@@ -1,4 +1,5 @@
-import author from '../../assets/image/author.png'
+import author from '../../../assets/image/author.png';
+import "./style.scss";
 
 function Author() {
     return(
