@@ -18,6 +18,12 @@
       margin-bottom: 30px;
     }
 
+    &-tag {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
     &-footer {
       display: flex;
       justify-content: space-between;
@@ -43,6 +49,7 @@
     line-height: 28px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
   }
 
   &__media{

@@ -1,5 +1,5 @@
 import './style.scss';
-import {Author, ButtonLink} from "../index.js";
+import {Author, ButtonLink, Tag} from "../index.js";
 import playIcon from '/src/assets/icon/play.svg';
 import heroBanner from '/src/assets/image/hero-banner.png';
 
@@ -14,6 +14,12 @@ function Hero() {
                         <h2 className="hero__title">Spicy delicious chicken wings</h2>
                         <p className="hero__description">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+
+                        <div className="hero__info-tag">
+                            <Tag text="30 Minutes"></Tag>
+                            <Tag text="Chicken"></Tag>
+                        </div>
+
                     </div>
 
                     <div className="hero__info-footer">
@@ -27,7 +33,6 @@ function Hero() {
                     </div>
 
                 </div>
-
 
                 <div className="hero__media">
                     <img src={heroBanner} alt=""/>
