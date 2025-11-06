@@ -1,8 +1,11 @@
-import {Hero} from "../components/index.js";
+import {Hero, HeroCategory} from "../components/index.js";
 
-function HomePage () {
+function HomePage() {
     return (
-        Hero()
+        <>
+            <Hero/>
+            <HeroCategory/>
+        </>
     )
 }
 

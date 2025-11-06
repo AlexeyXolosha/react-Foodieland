@@ -1,6 +1,6 @@
 import {useState, useEffect} from "react";
 
-const BASE_URL = import.meta.env.API_URL
+const BASE_URL = import.meta.env.VITE_API_URL;
 
 function useFetch(endpoint) {
     const [data, setData] = useState(null); // null, а не [], так универсальнее
@@ -9,7 +9,9 @@ function useFetch(endpoint) {
 
     useEffect(() => {
         const url = BASE_URL + endpoint;
+
         (async () => {
+
             setIsLoading(true);
             try {
                 const response = await fetch(url);
@@ -28,3 +30,5 @@ function useFetch(endpoint) {
 
     return { data, isLoading, error };
 }
+
+export default useFetch;

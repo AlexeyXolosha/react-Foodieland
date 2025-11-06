@@ -3,32 +3,32 @@
     {
       "id": 1,
       "title": "Breakfast",
-      "image": "/images/categories/breakfast.png"
+      "image": "src/assets/image/categories/breakfast.png"
     },
     {
       "id": 2,
       "title": "Vegan",
-      "image": "/images/categories/vegan.png"
+      "image": "src/assets/image/categories/vegan.png"
     },
     {
       "id": 3,
       "title": "Meat",
-      "image": "/images/categories/meat.png"
+      "image": "src/assets/image/categories/meat.png"
     },
     {
       "id": 4,
       "title": "Dessert",
-      "image": "/images/categories/dessert.png"
+      "image": "src/assets/image/categories/dessert.png"
     },
     {
       "id": 5,
       "title": "Lunch",
-      "image": "/images/categories/lunch.png"
+      "image": "src/assets/image/categories/lunch.png"
     },
     {
       "id": 6,
       "title": "Chocolate",
-      "image": "/images/categories/chocolate.png"
+      "image": "src/assets/image/categories/chocolate.png"
     }
   ]
 }
