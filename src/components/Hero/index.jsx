@@ -1,6 +1,10 @@
 import './style.scss';
 import {Author, ButtonLink, Tag} from "../index.js";
 import playIcon from '/src/assets/icon/play.svg';
+
+import TimerSrc from '/src/assets/icon/Timer.svg';
+import ForkKnife from '/src/assets/icon/ForkKnife.svg';
+
 import heroBanner from '/src/assets/image/hero-banner.png';
 
 function Hero() {
@@ -16,8 +20,8 @@ function Hero() {
                             eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
 
                         <div className="hero__info-tag">
-                            <Tag text="30 Minutes"></Tag>
-                            <Tag text="Chicken"></Tag>
+                            <Tag iconSrc={TimerSrc} text="30 Minutes"></Tag>
+                            <Tag iconSrc={ForkKnife} text="Chicken"></Tag>
                         </div>
 
                     </div>
@@ -31,7 +35,6 @@ function Hero() {
                             </div>
                         </ButtonLink>
                     </div>
-
                 </div>
 
                 <div className="hero__media">
