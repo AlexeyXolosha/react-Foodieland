@@ -150,5 +150,80 @@
       "image": "src/assets/image/recipes/chicken-pasta.png",
       "isFavorite": false
     }
-  ]
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Crochet Projects for Noodle Lovers",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Wade Warren",
+      "date": "12 November 2021",
+      "image": "src/assets/image/blog/noodle-lovers.png"
+    },
+    {
+      "id": 2,
+      "title": "10 Vegetarian Recipes To Eat This Month",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Robert Fox",
+      "date": "12 November 2021",
+      "image": "src/assets/image/blog/vegetarian-recipes.png"
+    },
+    {
+      "id": 3,
+      "title": "Full Guide to Becoming a Professional Chef",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Dianne Russell",
+      "date": "12 November 2021",
+      "image": "src/assets/image/blog/professional-chef.png"
+    },
+    {
+      "id": 4,
+      "title": "Simple & Delicious Vegetarian Lasagna",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Leslie Alexander",
+      "date": "12 November 2021",
+      "image": "src/assets/image/blog/vegetarian-lasagna.png"
+    },
+    {
+      "id": 5,
+      "title": "Plantain and Pinto Stew with Aji Verde",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Courtney Henry",
+      "date": "12 November 2021",
+      "image": "src/assets/image/blog/plantain-stew.png"
+    },
+    {
+      "id": 6,
+      "title": "We’re Hiring a Communications Assistant!",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Albert Flores",
+      "date": "12 November 2021",
+      "image": "src/assets/image/blog/communications-assistant.png"
+    }
+  ],
+  "tastyRecipes": [
+    {
+      "id": 1,
+      "title": "Chicken Meatballs with Cream Cheese",
+      "author": "Andreas Paula",
+      "image": "src/assets/image/tasty/chicken-meatballs.png"
+    },
+    {
+      "id": 2,
+      "title": "Traditional Bolognaise Ragu",
+      "author": "Andreas Paula",
+      "image": "src/assets/image/tasty/bolognaise-ragu.png"
+    },
+    {
+      "id": 3,
+      "title": "Pork and Chive Chinese Dumplings",
+      "author": "Andreas Paula",
+      "image": "src/assets/image/tasty/chinese-dumplings.png"
+    }
+  ],
+  "advertisement": {
+    "text": "Don't forget to eat healthy food",
+    "image": "src/assets/image/ads/healthy-food.png",
+    "link": "https://www.foodieland.com"
+  }
 }
