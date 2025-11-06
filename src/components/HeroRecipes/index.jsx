@@ -1,5 +1,6 @@
 import {RecipeCard} from "../index.js";
 import useRecipes from "../../hooks/useRecipes.js";
+import "./style.scss";
 
 function HeroRecipes() {
     const {recipes, isLoading, error, toggleFavorite} = useRecipes()

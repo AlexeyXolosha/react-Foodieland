@@ -1,0 +1,34 @@
+.recipe-card {
+
+  &__inner {
+    background-color: var(--color-accent);
+    border-radius: 30px;
+    padding: 16px 16px 32px;
+  }
+
+  &__image {
+    margin-bottom: 24px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 32px;
+    }
+  }
+
+  &__info{
+    &-items {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -4%;
+    margin-bottom: 24px;
+  }
+}

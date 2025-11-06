@@ -1,4 +1,5 @@
 import {Tag} from "../index.js";
+import "./style.scss";
 
 function RecipeCard({ data: { title, time, category, image, isFavorite } }) {
     return(
