@@ -3,32 +3,38 @@
     {
       "id": 1,
       "title": "Breakfast",
-      "image": "src/assets/image/categories/breakfast.png"
+      "image": "src/assets/image/categories/breakfast.png",
+      "background": "linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)"
     },
     {
       "id": 2,
       "title": "Vegan",
-      "image": "src/assets/image/categories/vegan.png"
+      "image": "src/assets/image/categories/vegan.png",
+      "background": "linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%)"
     },
     {
       "id": 3,
       "title": "Meat",
-      "image": "src/assets/image/categories/meat.png"
+      "image": "src/assets/image/categories/meat.png",
+      "background": "linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%)"
     },
     {
       "id": 4,
       "title": "Dessert",
-      "image": "src/assets/image/categories/dessert.png"
+      "image": "src/assets/image/categories/dessert.png",
+      "background": "linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%)"
     },
     {
       "id": 5,
       "title": "Lunch",
-      "image": "src/assets/image/categories/lunch.png"
+      "image": "src/assets/image/categories/lunch.png",
+      "background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%)"
     },
     {
       "id": 6,
       "title": "Chocolate",
-      "image": "src/assets/image/categories/chocolate.png"
+      "image": "src/assets/image/categories/chocolate.png",
+      "background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%)"
     }
   ]
 }

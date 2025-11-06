@@ -17,4 +17,15 @@
   font-size: 14px;
   line-height: 100%;
   font-weight: 600;
+
+
+  &.hero-show-all {
+    background-color: var(--color-accent);
+    color: var(--color-black);
+
+    font-size: 16px;
+    line-height: normal;
+
+    max-width: 200px;
+  }
 }
