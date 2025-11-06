@@ -6,4 +6,6 @@ export {default as Header} from './Header'
 
 export {default as Hero} from './Hero'
 export {default as HeroCategory} from './HeroCategory'
+export {default as HeroRecipes} from './HeroRecipes'
 export {default as CategoryCard} from './CategoryCard'
+export {default as RecipeCard} from './RecipeCard'

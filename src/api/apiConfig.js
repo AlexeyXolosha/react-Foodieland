@@ -1,4 +1,5 @@
 export const API_ENDPOINTS = {
-    categories: '/categories'
+    categories: '/categories',
+    recipes: '/recipes'
 }
 

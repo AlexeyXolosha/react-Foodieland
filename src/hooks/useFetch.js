@@ -3,7 +3,7 @@ import {useState, useEffect} from "react";
 const BASE_URL = import.meta.env.VITE_API_URL;
 
 function useFetch(endpoint) {
-    const [data, setData] = useState(null); // null, а не [], так универсальнее
+    const [data, setData] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
 

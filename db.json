@@ -36,5 +36,119 @@
       "image": "src/assets/image/categories/chocolate.png",
       "background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%)"
     }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Big and Juicy Wagyu Beef Cheeseburger",
+      "time": {
+        "label": "30 Minutes",
+        "icon": "src/assets/icon/Timer.svg"
+      },
+      "category": {
+        "name": "Snack",
+        "icon": "src/assets/icon/ForkKnife.svg"
+      },
+      "image": "src/assets/image/recipes/beef-burger.png",
+      "isFavorite": false
+    },
+    {
+      "id": 2,
+      "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
+      "time": {
+        "label": "30 Minutes",
+        "icon": "src/assets/icon/Timer.svg"
+      },
+      "category": {
+        "name": "Fish",
+        "icon": "src/assets/icon/ForkKnife.svg"
+      },
+      "image": "src/assets/image/recipes/salmon.png",
+      "isFavorite": false
+    },
+    {
+      "id": 3,
+      "title": "Strawberry Oatmeal Pancake with Honey Syrup",
+      "time": {
+        "label": "30 Minutes",
+        "icon": "src/assets/icon/Timer.svg"
+      },
+      "category": {
+        "name": "Breakfast",
+        "icon": "src/assets/icon/ForkKnife.svg"
+      },
+      "image": "src/assets/image/recipes/strawberry-pancake.png",
+      "isFavorite": false
+    },
+    {
+      "id": 4,
+      "title": "Fresh and Healthy Mixed Mayonnaise Salad",
+      "time": {
+        "label": "30 Minutes",
+        "icon": "src/assets/icon/Timer.svg"
+      },
+      "category": {
+        "name": "Healthy",
+        "icon": "src/assets/icon/ForkKnife.svg"
+      },
+      "image": "src/assets/image/recipes/salad.png",
+      "isFavorite": false
+    },
+    {
+      "id": 5,
+      "title": "Chicken Meatballs with Cream Cheese",
+      "time": {
+        "label": "30 Minutes",
+        "icon": "src/assets/icon/Timer.svg"
+      },
+      "category": {
+        "name": "Meat",
+        "icon": "src/assets/icon/ForkKnife.svg"
+      },
+      "image": "src/assets/image/recipes/meatballs.png",
+      "isFavorite": false
+    },
+    {
+      "id": 6,
+      "title": "Fruity Pancake with Orange & Blueberry",
+      "time": {
+        "label": "30 Minutes",
+        "icon": "src/assets/icon/Timer.svg"
+      },
+      "category": {
+        "name": "Sweet",
+        "icon": "src/assets/icon/ForkKnife.svg"
+      },
+      "image": "src/assets/image/recipes/fruity-pancake.png",
+      "isFavorite": false
+    },
+    {
+      "id": 7,
+      "title": "The Best Easy One Pot Chicken and Rice",
+      "time": {
+        "label": "30 Minutes",
+        "icon": "src/assets/icon/Timer.svg"
+      },
+      "category": {
+        "name": "Snack",
+        "icon": "src/assets/icon/ForkKnife.svg"
+      },
+      "image": "src/assets/image/recipes/chicken-rice.png",
+      "isFavorite": false
+    },
+    {
+      "id": 8,
+      "title": "The Creamiest Creamy Chicken and Bacon Pasta",
+      "time": {
+        "label": "30 Minutes",
+        "icon": "src/assets/icon/Timer.svg"
+      },
+      "category": {
+        "name": "Noodles",
+        "icon": "src/assets/icon/ForkKnife.svg"
+      },
+      "image": "src/assets/image/recipes/chicken-pasta.png",
+      "isFavorite": false
+    }
   ]
 }
